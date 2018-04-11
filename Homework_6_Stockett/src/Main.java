@@ -62,6 +62,7 @@ public class Main {
                 list.add(new Section(courseId,crn,title,instructor,seatsAvailable));
                 numberRead++;
             }
+            list.trimToSize();
 
 
             conn.close();
